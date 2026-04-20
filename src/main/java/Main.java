@@ -39,6 +39,27 @@ public class Main {
         }
         System.out.println("Because its between 9/11.")
     }
+
+    public static void Tictak()
+    {
+        System.out.println("What TikTok famous food reviewer left the city of Atlanta in shambles?");
+
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        System.out.println("Who");
+
+        try {
+            Thread.sleep(2500);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        System.out.println("Keith Lee");
+    }
 }
     public static void main(String[] args) {
         // Add code to print "Hello, world!" here
