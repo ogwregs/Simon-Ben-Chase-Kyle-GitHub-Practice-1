@@ -59,28 +59,7 @@ public class Main {
 
         System.out.println("Keith Lee");
     }
-
-    public static void KoreanDadJoke(){
-        System.out.println("What do you do when a watermelon sues you.");
-
-        try {
-            Thread.sleep(2000);
-        } catch (InterruptedException e){
-            e.printStackTrace();
-        }
-
-        System.out.println("What?");
-
-        try {
-            Thread.sleep(2000);
-        } catch (InterruptedException e){
-            e.printStackTrace();
-        }
-
-        // 수박 is watermelon in Korean and pronounced similar to 'sue back'
-        System.out.println("You 수박");
-    }
-
+    
     public static void main(String[] args) {
         // Add code to print "Hello, world!" here
         System.out.println("Hello, world!");
